@@ -36,6 +36,7 @@ export default defineComponent({
     autofocus: {
       type: Boolean,
       default: false,
+      required: true,
     },
   },
   emits: ['update:modelValue', 'submit'],
